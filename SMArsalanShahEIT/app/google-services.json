@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "485266011344",
+    "project_id": "fir-m-arsalan-shah-eit-c2571",
+    "storage_bucket": "fir-m-arsalan-shah-eit-c2571.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:485266011344:android:1afeaa416f7ecc4f431ad5",
+        "android_client_info": {
+          "package_name": "com.example.smarsalanshaheit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "485266011344-nmhjcvi68j1fpog3t5hog506aiquj819.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVubI0-7KzbpM1m2-qqsqYh2e54GhXgTY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "485266011344-nmhjcvi68j1fpog3t5hog506aiquj819.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

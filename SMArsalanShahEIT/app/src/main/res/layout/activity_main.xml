@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <Button
+                android:id="@+id/sqlCourse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:backgroundTint="#D3000000"
+                android:text="SQL-Course"
+                android:onClick="sqlclick"
+                />
+
+            <Button
+                android:id="@+id/androidCourse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:backgroundTint="#D3000000"
+                android:onClick="androidclick"
+                android:text="Android Course" />
+
+            <Button
+                android:id="@+id/javaCourse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:backgroundTint="#D3000000"
+                android:text="JAVA Programing Course"
+                android:onClick="jAVAclick"
+
+                />
+            <Button
+                android:id="@+id/javatasks"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:backgroundTint="#D3000000"
+                android:text="JavaStudentsTask "
+                android:onClick="javaTaskclick"
+                />
+            <Button
+                android:id="@+id/csharp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:backgroundTint="#D3000000"
+                android:text="c# (c-sharp) "
+                android:onClick="csharpclick"
+                />
+            <Button
+                android:id="@+id/asp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:backgroundTint="#D3000000"
+                android:text="ASP.NET"
+                android:onClick="aSPclick"
+                />
+
+
+
+            <Button
+                android:id="@+id/library"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:backgroundTint="#D3000000"
+                android:text="Library Management System"
+                android:onClick="libclick"
+                />
+
+            <Button
+                android:id="@+id/pos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:backgroundTint="#D3000000"
+                android:text="restaurant POS"
+                android:onClick="resclick"
+                />
+
+            <Button
+                android:id="@+id/pos1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:backgroundTint="#D3000000"
+                android:text="Java Point Of Sale"
+                android:onClick="posclick"
+                />
+
+            <Button
+                android:id="@+id/foodie"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:backgroundTint="#D3000000"
+                android:text="Foodie APP"
+                android:onClick="foodclick"
+                />
+            <Button
+                android:id="@+id/websitedevlopment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:backgroundTint="#D3000000"
+                android:text="Website Development Course"
+                android:onClick="webclick"
+                />
+        </LinearLayout>
+
+
+
+
+    </HorizontalScrollView>
+
+
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:text="Wellcome To S M Arsalan Shah EIT App!!!
+Simply tab on courses Button "
+            android:textDirection="ltr"
+            android:textAlignment="gravity"
+            android:textColor="#00897B"
+            />
+
+
+
+
+
+    </FrameLayout>
+</LinearLayout>
